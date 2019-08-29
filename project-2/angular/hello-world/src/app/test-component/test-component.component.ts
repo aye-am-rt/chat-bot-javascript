@@ -61,7 +61,7 @@ export class TestComponentComponent implements OnInit {
   public applyObject={"text-danger":this.varTrue,"text-special":this.varTrue};
 
 
-  @Input('parentData') public newName;
+  @Input ('parentData') public newName;
   @Output() public childEvent=new EventEmitter();
 
   fireEvent(){
